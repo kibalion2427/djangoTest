@@ -1,0 +1,11 @@
+-- Cambio nombre de modelo
+https://hacksoft.blog/renaming-models-in-django-without-heavy-data-migrations/
+1. Renombrar archivos
+2. Hacer makemigrations para crear el nuevo script
+2. Crear una nueva bd
+3. Crear un dump de la anterior bd exluyendo apps como auth y contentypes
+4. Sacar la información en un json
+4. cambiar en settings el nombre de la nueva bd
+5. Hacer migrate para crear le esquema de bd
+5. Cargar la información en la nueva bd
+6. createSuperUser ya que los usuarios se desloguean del server

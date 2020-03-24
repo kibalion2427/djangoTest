@@ -1,0 +1,38 @@
+[
+{
+  "model": "NewsApp.question",
+  "pk": 1,
+  "fields": {
+    "question_text": "What's new?",
+    "publication_date": "2020-03-24T20:48:55.004Z",
+    "question_description": ""
+  }
+},
+{
+  "model": "NewsApp.choice",
+  "pk": 1,
+  "fields": {
+    "choice_text": "Not much",
+    "votes": 0,
+    "questionFk": 1
+  }
+},
+{
+  "model": "NewsApp.choice",
+  "pk": 2,
+  "fields": {
+    "choice_text": "The sky",
+    "votes": 0,
+    "questionFk": 1
+  }
+},
+{
+  "model": "NewsApp.choice",
+  "pk": 3,
+  "fields": {
+    "choice_text": "Just hacking again",
+    "votes": 0,
+    "questionFk": 1
+  }
+}
+]
